@@ -10,6 +10,12 @@ function Home() {
           <p>
             La plateforme qui relie étudiants et particuliers autour de petits boulots flexibles au Bénin.
           </p>
+
+          {/* Nouveau bouton d'accès à l'authentification */}
+          <div className="auth-button">
+            <a href="/auth" className="btn login">🔐 Se connecter / S’inscrire</a>
+          </div>
+
           <div className="cta-buttons">
             <a href="/chercher" className="btn primary">🎯 Je cherche un job</a>
             <a href="/poster" className="btn secondary">📋 Je propose une mission</a>
@@ -40,7 +46,7 @@ function Home() {
       </section>
 
       {/* Contact */}
-      <section className="contact-section" >
+      <section className="contact-section">
         <h2>Une question ? Contacte-nous</h2>
         <form className="contact-form">
           <input type="text" placeholder="Nom complet" required />

@@ -4,6 +4,7 @@ import PostMission from './pages/PostMission';
 import FindMission from './pages/FindMission';
 import Profile from './pages/Profile';
 import Auth from './pages/Auth';
+import HomeUser from './pages/HomeUser';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/chercher" element={<FindMission />} />
         <Route path="/profil" element={<Profile />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/homeuser" element={<HomeUser />} />
       </Routes>
       <Footer />
     </BrowserRouter>

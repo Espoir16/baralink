@@ -3,13 +3,15 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyASzxywAxOR4kjobUaRXr0b0Lsf-03rjjY",
-  authDomain: "baralink-7caa4.firebaseapp.com",
-  projectId: "baralink-7caa4",
-  storageBucket: "baralink-7caa4.appspot.com",
-  messagingSenderId: "740624275894",
-  appId: "1:740624275894:web:7fd8b5e942412cba484917"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 };
+
 
 const app = initializeApp(firebaseConfig);
 
