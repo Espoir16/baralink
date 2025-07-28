@@ -1,0 +1,65 @@
+.find-mission-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.find-mission-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1BC5AC;
+}
+
+.mission-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.mission-card {
+  background-color: #f9fafb;
+  border-radius: 15px;
+  padding: 25px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+}
+
+.mission-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.mission-card .location,
+.mission-card .price,
+.mission-card .date {
+  font-weight: bold;
+  margin: 5px 0;
+  color: #333;
+}
+
+.mission-card .description {
+  font-size: 0.95rem;
+  margin: 10px 0 20px;
+}
+
+.btn.secondary {
+  background-color: #FFCC29;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn.secondary:hover {
+  transform: scale(1.05);
+}

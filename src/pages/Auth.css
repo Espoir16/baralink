@@ -1,0 +1,44 @@
+.auth-section {
+  padding: 60px 20px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn.primary {
+  background-color: #1BC5AC;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  margin-top: 10px;
+  background-color: #FFCC29;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.switch-mode span {
+  color: #1BC5AC;
+  cursor: pointer;
+  font-weight: bold;
+}

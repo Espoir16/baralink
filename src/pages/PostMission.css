@@ -1,0 +1,52 @@
+.post-mission-section {
+  padding: 80px 20px;
+  background-color: #F9FAFB;
+  text-align: center;
+}
+
+.post-mission-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #1BC5AC;
+}
+
+.mission-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.mission-form input,
+.mission-form textarea {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.mission-form input:focus,
+.mission-form textarea:focus {
+  outline: none;
+  border-color: #1BC5AC;
+}
+
+.btn.primary {
+  background-color: #1BC5AC;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn.primary:hover {
+  transform: scale(1.05);
+}
