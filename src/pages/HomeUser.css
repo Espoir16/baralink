@@ -1,0 +1,42 @@
+.homeuser-main {
+  flex: 1;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.user-desc {
+  margin: 1rem 0 2rem;
+  font-size: 1.1rem;
+}
+
+.homeuser-actions .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #00bfa6;
+  color: white;
+}
+.btn.primary:hover {
+  background-color: #00a48c;
+}
+
+.btn.secondary {
+  background-color: #f4b400;
+  color: black;
+}
+.btn.secondary:hover {
+  background-color: #e4a700;
+}

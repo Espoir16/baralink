@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../firebase-config';
+import { useNavigate } from 'react-router-dom'; // ← Ajouté
+
 import './Auth.css';
 
 function Auth() {
+  const navigate = useNavigate(); // ← Initialisation
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -19,6 +22,12 @@ function Auth() {
         await createUserWithEmailAndPassword(auth, email, password);
         setMessage('Compte créé avec succès ✅');
       }
+
+      // ✅ Redirection après succès
+      setTimeout(() => {
+        navigate('/homeuser');
+      }, 1000);
+
     } catch (error) {
       setMessage(`Erreur : ${error.message}`);
     }
