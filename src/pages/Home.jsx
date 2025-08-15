@@ -24,7 +24,7 @@ function Home() {
       </section>
 
       {/* How it works */}
-      <section className="steps-section" data-aos="fade-up">
+      <section className="steps-section" >
         <h2>Comment ça marche ?</h2>
         <div className="steps">
           <div className="step">
